@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping Tags</title>
+    <style>
+        header {
+            margin: auto auto 24px auto;
+        }
+        body { 
+            background-color: lightgray;
+
+        }
+
+        nav {
+            padding:14px 10px;
+            border-radius: 25px;
+            background-color: rgb(104, 102, 102);
+            box-shadow: 2px 3px 7px 1px rgba(0, 0, 0, 0.459);
+        }
+
+        nav > a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: white;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }        
+        #titulo_pagina {
+            margin: 0px;
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 150px;
+            height: 150px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(95, 95, 233);
+
+        }
+
+        h2 {
+            color: rgb(87, 87, 219);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        article {
+            border-radius: 33px;
+            margin: auto;
+            background-color: #878d8e79;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        
+        article > p {
+            display: block;
+            width:  300px;
+            height: 170px;
+            font-weight: bold;
+            font-family: sans-serif;
+            text-align: center;
+            margin: 5px 5px 5px 0px;
+        }
+        aside {
+            width: 300px;
+            height: 50px;
+            text-align: end;
+            font-weight: bolder;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover { 
+            color: black;
+        }
+
+        footer {
+            box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.452);
+            border-radius: 33px;
+            padding-top: 4px;
+            height: 50px;
+            text-align: center;
+            background-color: rgb(109, 107, 107);
+    
+        }
+        footer > p {
+            margin: 1px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1 id="titulo_pagina">
+            Site de Notícias
+        </h1>
+        <nav>
+            <a href="#">Política</a>
+            <a href="#">Mundo</a>
+            <a href="#">Esportes</a>
+            <a href="#">Brasil</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, quasi, doloremque dolores ipsam nemo libero porro quos architecto eos laboriosam ducimus natus commodi optio temporibus consectetur cupiditate fugiat voluptatibus magnam!</p>
+
+                <aside>
+                    <p><a href="#"><abbr title="Conheça mais artigos">Por Vinicius Nascimento</abbr></a></p>
+                </aside>
+            </article>
+
+             <article id="artigo_2">
+                <h2>Notícias sobre Portugal</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi voluptate quae nam earum similique rerum quis cum odit eos voluptatibus eligendi quisquam ea, amet eveniet dolores quam quos, praesentium consequuntur.</p>
+                <aside>
+                    <p><a href="#"><abbr title="Conheça mais artigos">Por Vinicius Nascimento</abbr></a></p>
+                </aside>
+             </article>   
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+
+</body>
+</html>
