@@ -1,3 +1,5 @@
 {
-    "livePreview.defaultPreviewPath": "/exercicios/ex024/iframe001.html"
+    "livePreview.defaultPreviewPath": "/exercicios/ex024/iframe001.html",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 11
 }
