@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <div>
+            <label for="iset">Estado: </label>
+            <select name="estado" id="iest">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+
+            </select>
+        </div>
+
+        <div>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option >ADM</option>
+                <option >DEV</option>
+                <option >PROF</option>
+
+            </datalist>
+        </div>
+
+        <div>
+            <label for="imsg"> Mensagem: </label> <br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+        </div>
+
+    </form>
+</body>
+</html>
